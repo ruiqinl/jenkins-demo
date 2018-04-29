@@ -1,0 +1,20 @@
+buildscript {
+	repositories {
+		mavenCentral()
+	}
+}
+
+apply plugin: 'java'
+
+group = 'com.rli'
+version = '0.0.1'
+sourceCompatibility = 1.8
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+// https://mvnrepository.com/artifact/junit/junit
+testCompile group: 'junit', name: 'junit', version: '4.12'
+}
